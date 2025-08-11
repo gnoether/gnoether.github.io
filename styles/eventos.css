@@ -1,0 +1,38 @@
+
+.events {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    height: calc(100% - var(--header-size));
+}
+
+.events__title {
+    text-align: center;
+    align-content: center;
+    font-size: 50px;
+}
+
+.events__ul {
+    list-style: none;
+    border-left: 1px solid gray;
+    padding: 0px 10px;
+}
+
+.events__ul li {
+    margin: 20px 0px;
+}
+
+.events__ul .date {
+    font-size: 20px;
+}
+
+@media (max-width: 700px) {
+    .events {
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr;
+    }
+
+    .events__ul {
+        border-left: 0px solid gray;
+    }
+}
+

@@ -1,0 +1,36 @@
+
+.main-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main-container .welcome-message {
+    width: 700px;
+}
+
+.main-container .welcome-message .title {
+    display: block;
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.main-container .welcome-message .desc {
+    display: block;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+@media (max-width: 700px) {
+    .main-container .welcome-message {
+        width: 500px;
+    }
+    
+    .main-container .welcome-message .desc {
+        padding: 10px 20px;
+    }
+}
+

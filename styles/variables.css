@@ -1,0 +1,16 @@
+
+:root {
+    --header-size: 50px;
+    --image-size: 50px;
+    --orange: #ed5027;
+    --pink: #a42764;
+    --purple: #7b1d6b;
+}
+
+@media (max-width: 700px) {
+    :root {
+        --section-size: 60px;
+        --header-size: calc(var(--image-size) + var(--section-size));
+    }
+}
+

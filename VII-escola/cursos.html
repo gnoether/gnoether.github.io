@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Noether group website">
+        <meta name="keywords" content="Physics,USP,Noether">
+        <meta name="author" content="Grupo Noether">
+        
+        <title>Grupo Noether</title>
+        
+        <link rel="icon" href="../assets/images/logo.png">
+        <link rel="stylesheet" href="../styles/variables.css">
+        <link rel="stylesheet" href="../styles/common.css">
+        <link rel="stylesheet" href="styles/cursos.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    </head>
+
+    <body>
+        <header class="header" id="escola-header"></header>
+        <div id="sketch-container"></div>
+        
+        <div class="main-container">
+            <div class="courses">
+                <div class="title">Cursos</div>
+                <div class="courses-container">
+                    <span id="curso0" class="course">Aspectos quânticos intrínsecos nas equações de Maxwell e o princípio da correspondência</span>
+                    <span id="curso1" class="course">Cromodinâmica Quântica e Física de Jatos no LHC</span>
+                    <span id="curso2" class="course">Introdução à Cosmologia: evolução dos conceitos e pesquisa</span>
+                    <span id="curso3" class="course">Inteligência Artificial Aplicada à Física: Fundamentos e Aplicações com Redes Neurais</span>
+                    <span id="curso4" class="course">Mecânica Clássica sob a perspectiva da Geometria Diferencial</span>
+                    <span id="curso5" class="course">Introdução ao Controle de Sistemas Quânticos</span>
+                </div>
+            </div>
+
+            <div id="course-content"></div>
+        </div>
+        
+        <script src="scripts/insert_escola_header.js"></script>
+        <script src="scripts/select_course.js"></script>
+        <script src="../scripts/sketch.js"></script>
+        <script src="../scripts/point.js"></script>
+    </body>
+</html>
+
