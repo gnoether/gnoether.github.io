@@ -24,6 +24,11 @@
     padding: 10px 0px;
 }
 
+.main-container iframe {
+    width: 700px;
+    height: 600px;
+}
+
 @media (max-width: 700px) {
     .main-container .welcome-message {
         width: auto;
@@ -32,6 +37,11 @@
     
     .main-container .welcome-message .desc {
         padding: 10px 20px;
+    }
+
+    .main-container iframe {
+        width: auto;
+        padding: 20px;
     }
 }
 
