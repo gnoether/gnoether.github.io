@@ -8,20 +8,31 @@
 .informations .title {
     text-align: center;
     align-content: center;
-    font-size: 90px;
+    font-size: 120px;
+    color: var(--title-color);
 }
 
 .informations .about-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 0 40px;
 }
 
 .informations .about-container .about {
-    margin: 0px 40px;
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
+    background-color: var(--about-background-color);
+    line-height: 1.5;
+    border: 2px solid var(--about-border-color);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.informations .about-container .about:hover {
+    background-color: var(--about-hover-background-color);
+    border-color: var(--about-hover-border-color);
 }
 
 @media (max-width: 700px) {

@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html {
     height: 100%;
     margin: 0;
@@ -7,8 +9,9 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-color: black;
-    color: white;
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -40,15 +43,18 @@ body {
 .header__nav .sections li a {
     text-align: center;
     align-content: center;
-    color: var(--pink);
+    color: var(--link-color);
     font-weight: bold;
     font-variant: small-caps;
     text-decoration: none;
-    transition: color 0.2s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.2s, background-color 0.2s;
 }
 
 .header__nav .sections li a:hover {
-    color: var(--orange);
+    color: var(--link-hover-text-color);
+    background-color: var(--link-hover-background-color);
 }
 
 #sketch-container {

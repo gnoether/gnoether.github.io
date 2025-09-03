@@ -1,0 +1,72 @@
+.content-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--about-background-color);
+    border: 2px solid var(--about-border-color);
+    border-radius: 10px;
+}
+
+.content-container h1,
+.content-container h2,
+.content-container .title {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.content-container p,
+.content-container .desc {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.content-container a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.content-container a:hover {
+    color: var(--link-hover-text-color);
+}
+
+.content-container iframe {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+/* Cursos page specific styles */
+.courses-layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 20px;
+}
+
+.courses-list {
+    padding-right: 20px;
+    border-right: 2px solid var(--about-border-color);
+}
+
+.course {
+    display: block;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.course:hover {
+    background-color: var(--link-hover-background-color);
+    color: var(--link-hover-text-color);
+}
+
+#course-content {
+    padding-left: 20px;
+}

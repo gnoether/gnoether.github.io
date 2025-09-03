@@ -1,10 +1,33 @@
-
 :root {
     --header-size: 50px;
     --image-size: 50px;
-    --orange: #ed5027;
-    --pink: #a42764;
-    --purple: #7b1d6b;
+
+    /* Color Palette */
+    --background-primary: #000004;
+    --text-primary: #ffffff;
+
+    --link-color: #a52c60;
+    --link-hover-text-color: #fcffa4;
+    --link-hover-background-color: #4a0c6b;
+
+    --title-color: #fb9b06;
+
+    --about-background-color: #1b0c41;
+    --about-border-color: #781c6d;
+    --about-hover-background-color: #4a0c6b;
+    --about-hover-border-color: #ed6925;
+
+    /* Raw Colors */
+    --black: #000004;
+    --dark-purple: #1b0c41;
+    --purple: #4a0c6b;
+    --magenta: #781c6d;
+    --pink: #a52c60;
+    --red: #cf4446;
+    --orange: #ed6925;
+    --yellow: #fb9b06;
+    --light-yellow: #f7d13d;
+    --bright-yellow: #fcffa4;
 }
 
 @media (max-width: 700px) {
@@ -13,4 +36,3 @@
         --header-size: calc(var(--image-size) + var(--section-size));
     }
 }
-

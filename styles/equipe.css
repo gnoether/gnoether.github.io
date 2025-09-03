@@ -1,0 +1,32 @@
+.content-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: var(--about-background-color);
+    border: 2px solid var(--about-border-color);
+    border-radius: 10px;
+}
+
+.content-container h1 {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.content-container p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.content-container a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+.content-container a:hover {
+    color: var(--link-hover-text-color);
+}
