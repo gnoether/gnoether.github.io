@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 html {
     height: 100%;
     margin: 0;
@@ -7,15 +9,16 @@ html {
 body {
     height: 100%;
     margin: 0;
-    background-color: black;
-    color: white;
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
     display: grid;
     grid-template-columns: var(--header-size) 1fr;
     align-items: center;
-    height: var(--header-size);
+    /* height: var(--header-size); */
     padding: 0 50px;
     background: rgb(0, 0, 0);
 }
@@ -27,9 +30,10 @@ body {
 
 .header__nav .sections {
     display: flex;
-    padding: 10px;
+    /* padding: 10px; */
     justify-content: space-around;
-    gap: 10px;
+    gap: 25px;
+    margin: 20px 0px;
 }
 
 .header__nav .sections li {
@@ -40,15 +44,18 @@ body {
 .header__nav .sections li a {
     text-align: center;
     align-content: center;
-    color: var(--pink);
+    color: var(--link-color);
     font-weight: bold;
     font-variant: small-caps;
     text-decoration: none;
-    transition: color 0.2s;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.2s, background-color 0.2s;
 }
 
 .header__nav .sections li a:hover {
-    color: var(--orange);
+    color: var(--link-hover-text-color);
+    background-color: var(--link-hover-background-color);
 }
 
 #sketch-container {
@@ -71,8 +78,16 @@ body {
         margin: 0px;
         padding: 0px 10px;
         grid-template-columns: 1fr;
-        grid-template-rows: var(--image-size) var(--section-size);
-        height: var(--header-size);
+        /* grid-template-rows: var(--image-size) var(--section-size); */
+        /* height: var(--header-size); */
+        align-items: start;
+    }
+
+    .sections {
+        gap: 5px;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
     }
 }
 
