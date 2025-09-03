@@ -1,6 +1,6 @@
 .content-container {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 40px 5px;
     padding: 20px;
     background-color: var(--about-background-color);
     border: 2px solid var(--about-border-color);
@@ -12,13 +12,13 @@
 .content-container .title {
     color: var(--title-color);
     text-align: center;
-    font-size: 48px;
+    font-size: 28px;
     margin-bottom: 30px;
 }
 
 .content-container p,
 .content-container .desc {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: justify;
@@ -37,8 +37,8 @@
 
 .content-container iframe {
     display: block;
-    margin: 20px auto;
-    border-radius: 10px;
+    margin: 0px;
+    border-radius: 0px;
 }
 
 /* Cursos page specific styles */
