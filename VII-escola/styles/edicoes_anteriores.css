@@ -2,8 +2,8 @@
     max-width: 800px;
     margin: 40px 5px;
     padding: 20px;
-    background-color: var(--about-background-color);
-    border: 2px solid var(--about-border-color);
+    background-color: #1b0c4175;
+    border: 2px solid #781c6dba;
     border-radius: 10px;
 }
 

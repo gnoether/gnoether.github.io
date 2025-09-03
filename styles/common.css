@@ -21,6 +21,7 @@ body {
     /* height: var(--header-size); */
     padding: 0 50px;
     background: rgb(0, 0, 0);
+    margin: 15px;
 }
 
 .header__logo {
@@ -33,7 +34,7 @@ body {
     /* padding: 10px; */
     justify-content: space-around;
     gap: 25px;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .header__nav .sections li {
