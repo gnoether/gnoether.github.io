@@ -12,6 +12,9 @@ body {
     background-color: var(--background-primary);
     color: var(--text-primary);
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header {
@@ -22,11 +25,14 @@ body {
     padding: 0 50px;
     background: rgb(0, 0, 0);
     margin: 15px;
+    width: 100%;
+    justify-items: center;
 }
 
 .header__logo {
     margin: auto;
     height: var(--image-size);
+    width: 1.5*var(--image-size);
 }
 
 .header__nav .sections {
@@ -35,6 +41,10 @@ body {
     justify-content: space-around;
     gap: 25px;
     margin: 10px 0px;
+}
+
+.header__nav {
+    width: 90%;
 }
 
 .header__nav .sections li {
@@ -89,6 +99,7 @@ body {
         padding: 5px;
         display: flex;
         flex-direction: column;
+        font-size: 15px;
     }
 }
 

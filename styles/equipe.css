@@ -5,13 +5,16 @@
     background-color: var(--about-background-color);
     border: 2px solid var(--about-border-color);
     border-radius: 10px;
+    background-color: #1b0c4175;
+    border: 2px solid #781c6dba;
 }
 
 .content-container h1 {
     color: var(--title-color);
     text-align: center;
-    font-size: 48px;
-    margin-bottom: 30px;
+    font-size: 40px;
+    margin: 30px 0px    ;
+    font-weight: bold;
 }
 
 .content-container p {

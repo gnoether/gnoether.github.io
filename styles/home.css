@@ -10,6 +10,7 @@
     align-content: center;
     font-size: 60px;
     color: var(--title-color);
+    font-weight: bold;
 }
 
 .informations .about-container {
